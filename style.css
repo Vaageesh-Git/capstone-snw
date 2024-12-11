@@ -1,0 +1,12 @@
+.Landing-page{
+    width: 1440px;
+    height: 6233px;
+    top: -2480px;
+    left: 309px;
+    padding: 0px 48px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
