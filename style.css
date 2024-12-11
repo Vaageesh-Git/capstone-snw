@@ -4,9 +4,478 @@
     top: -2480px;
     left: 309px;
     padding: 0px 48px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #cc801c;
     margin: auto;
+    justify-content: center;
+}
+
+.personal-or-agency-website-header{
+    display: flex;
+    height: 96px;
+    width: 1344px;
+    padding-top: 24px;
+    gap: 8px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    justify-self: center;
+}
+
+.personal-or-agency-website-header .container{
+    display: flex;
+    width: 1080px;
+    height: 72px;
+    border-radius: 16px;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding: 24px 32px;
+    background-color: #2419F30F;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.personal-or-agency-website-header .container .pagelinks{
+    height: 24px;
+    width: 255px;
+    gap: 32px;
+    display: flex;
+}
+
+.personal-or-agency-website-header .container .pagelinks .Home{
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+    width: 48px;
+    height: 24px;
+}
+
+.personal-or-agency-website-header .container .pagelinks .Projects{
+    width: 65px;
+    height: 24px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.personal-or-agency-website-header .container .pagelinks .About{
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+    width: 48px;
+    height: 24px;
+}
+
+
+.personal-or-agency-website-header .container .socials{
+    height: 24px;
+    width: 64px;
+    gap: 32px;
+}
+
+.personal-or-agency-website-header .container .socials .Contact{
+    font-size: 17px;
+    color: #000000;
+    width: 64px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.personal-or-agency-website-header .container .logo{
+    width: 157px;
+    height: 72px;
+    gap: 12px;
+    margin-right: 200px;   /* given by self */
+}
+
+.personal-or-agency-website-header .container .logo .NeonPort{
+    width: 157px;
+    height: 33px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Container{
+    width: 1344px;
+    height: 5713px;
+    padding: 48px 0px;
+}
+
+.Container .Main-Content{
+    width: 1344px;
+    height: 5617px;
+}
+
+.Hero-with-tagline-and-image{
+    width: 1344px;
+    height: 800px;
+    border-bottom: 1px black;
+    padding: 96px 0px;
+    gap: 48px;
+    background-color: #FFFFFF;
+    margin-left: 50px;    /* given by self */
+}
+
+.Hero-with-tagline-and-image .welcome{
+    width: 1344px;
+    height: 240px;
+    font-size: 120px;
+    line-height: 120px;
+    text-align: center;
+    letter-spacing: -2%;
+    color: #000000;
+}
+
+.Hero-with-tagline-and-image .image{
+    width: 1344px;
+    height: 672px;
+    border: 1px solid black;
+}
+
+.Hero-with-tagline-and-image .image img{
+    width: 1344px;
+    height: 672px;
+    border-top: 1px solid #00000000;
+}
+
+.Project-overview-collage{
+    width: 1344px;
+    height: 1191px;
+    border-bottom: 1px;
+    margin: 50px;    /* given by self */
+
+}
+
+.Project-overview-collage .row1{
+    width: 1344px;
+    height: 275px;
+    padding: 48px 0px;
+    gap: 48px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Project-overview-collage .row1 .project1{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.Project-overview-collage .row1 .project1 img{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #00000000;
+}
+
+.Project-overview-collage .row1 .project1 .Text-content{
+    width: 416px;
+    height: 48px;
+}
+
+.Project-overview-collage .row1 .project1 .Text-content .Cyber-city{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row1 .project1 .Text-content .Digital-art{
+    width: 416px;
+    height: 24px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row1 .project2{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.Project-overview-collage .row1 .project2 img{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #00000000;
+}
+
+.Project-overview-collage .row1 .project2 .Text-content{
+    width: 416px;
+    height: 48px;
+}
+
+.Project-overview-collage .row1 .project2 .Text-content .Neon-nights{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row1 .project2 .Text-content .photography{
+    width: 416px;
+    height: 24px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row1 .project3{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.Project-overview-collage .row1 .project3 img{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #00000000;
+}
+
+.Project-overview-collage .row1 .project3 .Text-content{
+    width: 416px;
+    height: 48px;
+}
+
+.Project-overview-collage .row1 .project3 .Text-content .Futuristic-dreams{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row1 .project3 .Text-content .Illustration{
+    width: 416px;
+    height: 24px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row2{
+    width: 1344px;
+    height: 275px;
+    padding: 48px 0px;
+    gap: 48px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Project-overview-collage .row2 .project4{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.Project-overview-collage .row2 .project4 img{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #00000000;
+}
+
+.Project-overview-collage .row2 .project4 .Text-content{
+    width: 416px;
+    height: 48px;
+}
+
+.Project-overview-collage .row2 .project4 .Text-content .Techno-visions{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row2 .project4 .Text-content .Graphic-design{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* next */
+
+.Project-overview-collage .row2 .project5{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.Project-overview-collage .row2 .project5 img{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #00000000;
+}
+
+.Project-overview-collage .row2 .project5 .Text-content{
+    width: 416px;
+    height: 48px;
+}
+
+.Project-overview-collage .row2 .project5 .Text-content .Urabn-decay{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row2 .project5 .Text-content .Mixed-media{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* next 2 */
+
+.Project-overview-collage .row2 .project6{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.Project-overview-collage .row2 .project6 img{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #00000000;
+}
+
+.Project-overview-collage .row2 .project6 .Text-content{
+    width: 416px;
+    height: 48px;
+}
+
+.Project-overview-collage .row2 .project6 .Text-content .Electric-pulse{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row2 .project6 .Text-content .Animation{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row3{
+    width: 1344px;
+    height: 275px;
+    padding: 48px 0px;
+    gap: 48px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Project-overview-collage .row3 .project7{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.Project-overview-collage .row3 .project7 img{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #00000000;
+}
+
+.Project-overview-collage .row3 .project7 .Text-content{
+    width: 416px;
+    height: 48px;
+}
+
+.Project-overview-collage .row3 .project7 .Text-content .Digital-waves{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row3 .project7 .Text-content .Web-design{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* next steps */
+
+.Project-overview-collage .row3 .project8{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.Project-overview-collage .row3 .project8 img{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #00000000;
+}
+
+.Project-overview-collage .row3 .project8 .Text-content{
+    width: 416px;
+    height: 48px;
+}
+
+.Project-overview-collage .row3 .project8 .Text-content .Holo-world{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row3 .project8 .Text-content .D-art{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.Project-overview-collage .row3 .project9{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.Project-overview-collage .row3 .project9 img{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #00000000;
+}
+
+.Project-overview-collage .row3 .project9 .Text-content{
+    width: 416px;
+    height: 48px;
+}
+
+.Project-overview-collage .row3 .project9 .Text-content .Neon-dreams{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.Project-overview-collage .row3 .project9 .Text-content .Concept-art{
+    width: 418px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
 }
